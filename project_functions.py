@@ -6,13 +6,13 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 
 def setup_sample():
-    filename = "Heart_Disease_Pred.csv"
+    filename = "Heart_Disease_Samp_Data.csv"
     df = pd.read_csv(filename)
     return df
 
 def setup_test():
-    filename = "Heart_Disease_New_Sample.csv"
-    filename2 = "Heart_Disease_Pred.csv"
+    filename = "Heart_Disease_Pred_Data.csv"
+    filename2 = "Heart_Disease_Samp_Data.csv"
     df1 = pd.read_csv(filename)
     df2 = pd.read_csv(filename2)
     df = df1.loc[df1.index.difference(df2.index)]
