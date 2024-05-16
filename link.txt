@@ -1,0 +1,26 @@
+https://www.kaggle.com/datasets/rishidamarla/heart-disease-prediction
+https://www.kaggle.com/datasets/yasserh/heart-disease-dataset?select=heart.csv
+NEW SAMPLE DATA: https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset/data
+
+
+
+Common:
+Age
+Sex
+Chest Pain Type/Level
+BP/trestbps
+Cholesterol
+FBS Level
+EKG/ECG
+Thalach/Max HR
+Exang/Exercise angina
+old peak/ST depression
+slope/slope of ST
+patient's thal level/Thallium (May have used different measurements/metrics)
+
+
+Uncommon:
+Patients CA level
+Number of vessels fluro
+
+not going to consider thallium, ca level, or number of vessels because they are not in both datasets and they can be null.
