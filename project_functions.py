@@ -42,5 +42,3 @@ def reformat_pred():
     df['Heart Disease'] = df['Heart Disease'].apply(lambda x:'Presence' if x == 1 else 'Absence')
     return df
 
-
-setup_test()
